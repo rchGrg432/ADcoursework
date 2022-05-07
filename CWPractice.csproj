@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ActorsDVDs.aspx" />
     <Content Include="city %282%29.jpg" />
     <Content Include="Home.aspx" />
     <Content Include="Profile.aspx" />
@@ -75,6 +76,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActorsDVDs.aspx.cs">
+      <DependentUpon>ActorsDVDs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ActorsDVDs.aspx.designer.cs">
+      <DependentUpon>ActorsDVDs.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Home.aspx.cs">
       <DependentUpon>Home.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
